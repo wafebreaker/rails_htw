@@ -31,7 +31,16 @@ body{
 .container{
     flex-grow: 1;
 }
-
-footer{
+footer {
     flex-grow: 0;
+}
+
+footer.light{
+    color: black;
+    background-color: #c8c7c7;
+}
+
+footer.dark{
+    color: white;
+    background-color: #353535;
 }
