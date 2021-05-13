@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
   end
-  def martin
+  def impressum
   end
   def about
   end
