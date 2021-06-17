@@ -44,3 +44,8 @@ footer.dark{
     color: white;
     background-color: #353535;
 }
+
+td {
+    width: 1px;
+    white-space: nowrap;
+}

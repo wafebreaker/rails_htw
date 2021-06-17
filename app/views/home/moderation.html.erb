@@ -1,0 +1,39 @@
+<h1><div style="text-align: center;">Moderation</div></h1>
+<%= form_tag(home_moderation_path, method: :get) do %>
+  <%= text_field_tag(:search, params[:search]) %>
+  <%= submit_tag ("Los") %>
+<% end %>
+<%if params[:search] == nil %>
+  <% result = ExternalDb.connection.exec_query("select * from moderation limit 100")%>
+<% else %>
+  <p><% result = ExternalDb.connection.exec_query("select * from #{params[:search]}")%></p>
+<%end %>
+<table class="output">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Moderator</th>
+    <th>Event</th>
+    <th>Username</th>
+    <th>Reason</th>
+    <th>Timeout Duration</th>
+    <th>Nachricht</th>
+    <th>Uhrzeit</th>
+
+  </tr>
+  </thead>
+  <tbody>
+  <%result.each do |row| %>
+    <tr>
+      <td><%= row['id'] %></td>
+      <td><%= row['moderator'] %></td>
+      <td><%= row['event'] %></td>
+      <td><%= row['username'] %></td>
+      <td><%= row['reason'] %></td>
+      <td><%= row['timeoutduration'] %></td>
+      <td><%= row['message'] %></td>
+      <td><%= row['time'] %></td>
+    </tr>
+  <%end %>
+  </tbody>
+</table>

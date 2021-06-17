@@ -1,4 +1,5 @@
 class HomeController < ApplicationController
+  helper_method :search
   def index
   end
   def impressum
