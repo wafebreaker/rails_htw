@@ -1,17 +1,18 @@
 <h1><div style="text-align: center;">Zeitnachweis</div></h1>
 <%= form_tag(home_zeitnachweis_path, method: :get) do %>
-   <%= text_field_tag(:search, params[:search]) %>
+  where: <%= text_field_tag(:where, params[:where]) %>
+  = <%= text_field_tag(:equal, params[:equal]) %>
   <%= submit_tag ("Los") %>
   <% end %>
-<%if params[:search] == nil %>
+<%if params[:where] == nil %>
   <% result = ExternalDb.connection.exec_query("select * from zeitnachweis")%>
   <% else %>
-  <p><% result = ExternalDb.connection.exec_query("select * from #{params[:search]}")%></p>
+  <p><% result = ExternalDb.connection.exec_query("select * from zeitnachweis where #{params[:where]}='#{params[:equal]}' limit 100")%></p>
   <%end %>
 <table class="output">
   <thead>
   <tr>
-    <th>ID</th>
+    <th>id</th>
     <th>name</th>
     <th>zeit</th>
     <th>activezeit</th>

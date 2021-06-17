@@ -46,6 +46,7 @@ footer.dark{
 }
 
 td {
+    padding: 5px;
     width: 1px;
     white-space: nowrap;
 }
