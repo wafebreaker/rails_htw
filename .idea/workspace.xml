@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0108d72f-c17b-4193-938b-47dc4ddb948c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/home/datenbank.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/_footer.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_footer.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/about.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/about.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/impressum.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/impressum.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +76,7 @@
       <workItem from="1620839147364" duration="2590000" />
       <workItem from="1620897849186" duration="5150000" />
       <workItem from="1621160127670" duration="9000" />
-      <workItem from="1623925444282" duration="1002000" />
+      <workItem from="1623925444282" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Ruby Update 3.0.1">
       <created>1620499483006</created>
@@ -126,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620902938339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Datenbank">
+      <created>1623926636956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623926636956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +152,7 @@
     <MESSAGE value="Dark Mode Update" />
     <MESSAGE value="Search removed" />
     <MESSAGE value="Impressum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Impressum" />
+    <MESSAGE value="Datenbank" />
+    <option name="LAST_COMMIT_MESSAGE" value="Datenbank" />
   </component>
 </project>
