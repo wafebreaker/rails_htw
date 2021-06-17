@@ -1,1 +1,29 @@
 <h1><div style="text-align: center;">Datenbank</div></h1>
+
+
+<p><% result = ExternalDb.connection.exec_query("select * from zeitnachweis") %></p>
+
+<table class="output">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>name</th>
+    <th>zeit</th>
+    <th>activezeit</th>
+    <th>monat</th>
+    <th>jahr</th>
+  </tr>
+  </thead>
+  <tbody>
+  <%result.each do |row| %>
+    <tr>
+      <td><%= row['id'] %></td>
+      <td><%= row['name'] %></td>
+      <td><%= row['zeit'] %></td>
+      <td><%= row['activezeit'] %></td>
+      <td><%= row['monat'] %></td>
+      <td><%= row['jahr'] %></td>
+    </tr>
+  <%end %>
+  </tbody>
+</table>
