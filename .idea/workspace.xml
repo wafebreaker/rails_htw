@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0108d72f-c17b-4193-938b-47dc4ddb948c" name="Default Changelist" comment="" />
+    <list default="true" id="0108d72f-c17b-4193-938b-47dc4ddb948c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/views/home/_header.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/_header.html.erb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,23 +17,14 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1sGWRKz13YTWBdPczhIL6Kpvmoq" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -83,7 +76,7 @@
       <workItem from="1620839147364" duration="2590000" />
       <workItem from="1620897849186" duration="5150000" />
       <workItem from="1621160127670" duration="9000" />
-      <workItem from="1623925444282" duration="1002000" />
+      <workItem from="1623925444282" duration="1486000" />
     </task>
     <task id="LOCAL-00001" summary="Ruby Update 3.0.1">
       <created>1620499483006</created>
@@ -128,20 +121,13 @@
       <updated>1620902938339</updated>
     </task>
     <task id="LOCAL-00007" summary="Datenbank">
-      <created>1623942726594</created>
+      <created>1623926636956</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1623942726594</updated>
+      <updated>1623926636956</updated>
     </task>
-    <task id="LOCAL-00008" summary="Datenbank">
-      <created>1623942768255</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1623942768255</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +146,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Ruby Update 3.0.1" />
     <MESSAGE value="About 2.0" />
     <MESSAGE value="Add Footer" />
