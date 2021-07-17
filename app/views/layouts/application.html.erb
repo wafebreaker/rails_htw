@@ -18,13 +18,15 @@
 
   </head>
   <body class="<%= cookies[:theme] %>">
-    <%= render 'header'%>
+    <% if user_signed_in? %>
+        <%= render '/home/header'%>
+    <% end %>
     <div class="container">
     <br>
     <%= yield %>
     </div>
 
-    <%= render 'footer' %>
+    <%= render '/home/footer' %>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
