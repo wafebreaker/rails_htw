@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   before_action :set_theme
 
+  before_action :authenticate_user!
 
   def set_theme
     if params[:theme].present?
