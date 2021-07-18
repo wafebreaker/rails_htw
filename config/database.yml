@@ -25,9 +25,9 @@ production:
   database: db/production.sqlite3
 
 external_reporting_table:
-  adapter: mysql2
-  database: s20_twitchbot
-  host: 168.119.140.22
+  adapter: *****
+  database: *******
+  host: ***********
   port: 3306
-  username: u20_UIWBTDPVz0
-  password: Hfy!Yuo8Sv2@v4uNh^cLzLRS
+  username: ***********
+  password: **********
